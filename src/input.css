@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: "Gilroy";
+	src: local("Gilroy"),
+		url('/src/fonts/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+		url('/src/fonts/Gilroy-Regular.woff') format('woff'),
+		url('/src/fonts/Gilroy-Regular.ttf') format('truetype');
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('/src/fonts/Gilroy-Black.eot');
+	src: local('Gilroy Black'), local('Gilroy-Black'),
+			url('/src/fonts/Gilroy-Black.eot?#iefix') format('embedded-opentype'),
+			url('/src/fonts/Gilroy-Black.woff') format('woff'),
+			url('/src/fonts/Gilroy-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('/src/fonts/Gilroy-BlackItalic.eot');
+	src: local('Gilroy BlackItalic'), local('Gilroy-BlackItalic'),
+			url('/src/fonts/Gilroy-BlackItalic.eot?#iefix') format('embedded-opentype'),
+			url('/src/fonts/Gilroy-BlackItalic.woff') format('woff'),
+			url('/src/fonts/Gilroy-BlackItalic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('/src/fonts/Gilroy-Bold.eot');
+	src: local('Gilroy Bold'), local('Gilroy-Bold'),
+			url('/src/fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+			url('/src/fonts/Gilroy-Bold.woff') format('woff'),
+			url('/src/fonts/Gilroy-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('/src/fonts/Gilroy-ExtraBold.eot');
+	src: local('Gilroy Extra Bold'), local('Gilroy-ExtraBold'),
+			url('/src/fonts/Gilroy-ExtraBold.eot?#iefix') format('embedded-opentype'),
+			url('/src/fonts/Gilroy-ExtraBold.woff') format('woff'),
+			url('/src/fonts/Gilroy-ExtraBold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('/src/fonts/Gilroy-SemiBold.eot');
+	src: local('Gilroy Semi Bold'), local('Gilroy-SemiBold'),
+			url('/src/fonts/Gilroy-SemiBold.eot?#iefix') format('embedded-opentype'),
+			url('/src/fonts/Gilroy-SemiBold.woff') format('woff'),
+			url('/src/fonts/Gilroy-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('/src/fonts/Gilroy-Medium.eot');
+	src: local('Gilroy Medium'), local('Gilroy-Medium'),
+			url('/src/fonts/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+			url('/src/fonts/Gilroy-Medium.woff') format('woff'),
+			url('/src/fonts/Gilroy-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('/src/fonts/Gilroy-Thin.eot');
+	src: local('Gilroy Thin'), local('Gilroy-Thin'),
+			url('/src/fonts/Gilroy-Thin.eot?#iefix') format('embedded-opentype'),
+			url('/src/fonts/Gilroy-Thin.woff') format('woff'),
+			url('/src/fonts/Gilroy-Thin.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('/src/fonts/Gilroy-Regular.eot');
+	src: local('Gilroy Regular'), local('Gilroy-Regular'),
+			url('/src/fonts/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+			url('/src/fonts/Gilroy-Regular.woff') format('woff'),
+			url('/src/fonts/Gilroy-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('/src/fonts/Gilroy-Light.eot');
+	src: local('Gilroy Light'), local('Gilroy-Light'),
+			url('/src/fonts/Gilroy-Light.eot?#iefix') format('embedded-opentype'),
+			url('/src/fonts/Gilroy-Light.woff') format('woff'),
+			url('/src/fonts/Gilroy-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+html {
+    font-family: 'Gilroy', sans-serif;
+    line-height: 1.5;
+}
